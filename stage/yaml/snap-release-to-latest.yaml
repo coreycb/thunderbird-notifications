@@ -1,0 +1,177 @@
+- id: SnapRelease-en
+  start_at: 2026-08-03T00:00:00.000Z
+  end_at: 2026-11-03T00:00:00.000Z
+  title: "Snap Release track change"
+  description: "The snap channels are changing. Action is required to stay on Release."
+  CTA: "Learn More"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - { channels: [release], pref_true: [mail.inappnotifications.isSnap] }
+    exclude:
+      - { locales: [de, fr, it, ja, pl, pt-BR, es-AR, es-ES, es-MX, nl, ru] }
+    percent_chance: 100
+
+- id: SnapRelease-de
+  start_at: 2026-08-03T00:00:00.000Z
+  end_at: 2026-11-03T00:00:00.000Z
+  title: "Änderung des Snap-Release-Tracks"
+  description: "Die Snap-Kanäle ändern sich. Es sind Maßnahmen erforderlich, um Release beizubehalten."
+  CTA: "Mehr erfahren"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release],
+          locales: [de],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
+
+- id: SnapRelease-fr
+  start_at: 2026-08-03T00:00:00.000Z
+  end_at: 2026-11-03T00:00:00.000Z
+  title: "Changement de track pour le snap Release"
+  description: "Les snap channels évoluent. Une intervention de votre part est nécessaire pour rester sur le track Release."
+  CTA: "En savoir plus"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release],
+          locales: [fr],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
+
+- id: SnapRelease-it
+  start_at: 2026-08-03T00:00:00.000Z
+  end_at: 2026-11-03T00:00:00.000Z
+  title: "Modifica track Snap Release"
+  description: "I canali snap stanno cambiando. È necessario intervenire per mantenere il Release."
+  CTA: "Scopri di più"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release],
+          locales: [it],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
+
+- id: SnapRelease-ja
+  start_at: 2026-08-03T00:00:00.000Z
+  end_at: 2026-11-03T00:00:00.000Z
+  title: "Snap Release Trackの変更"
+  description: "Snapチャンネルに変更があります。Releaseを引き続き利用するには、対応が必要です。"
+  CTA: "詳細はこちら"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release],
+          locales: [ja],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
+
+- id: SnapRelease-pl
+  start_at: 2026-08-03T00:00:00.000Z
+  end_at: 2026-11-03T00:00:00.000Z
+  title: "Zmiana kanału Snap Release"
+  description: "Kanały snap się zmieniają. Aby pozostać na Release, musisz podjąć odpowiednie działania."
+  CTA: "Więcej informacji"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release],
+          locales: [pl],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
+
+- id: SnapRelease-pt_BR
+  start_at: 2026-08-03T00:00:00.000Z
+  end_at: 2026-11-03T00:00:00.000Z
+  title: "Alteração do track Snap Release"
+  description: "Os snap channels estão mudando. Ação necessária para permanecer no Release."
+  CTA: "Saiba mais"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release],
+          locales: [pt-BR],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
+
+- id: SnapRelease-es
+  start_at: 2026-08-03T00:00:00.000Z
+  end_at: 2026-11-03T00:00:00.000Z
+  title: "Cambio del track Snap Release"
+  description: "Los canales de snaps están cambiando. Es necesario realizar una acción para permanecer en Release."
+  CTA: "Más información"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release],
+          locales: [es-AR, es-ES, es-MX],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
+
+- id: SnapRelease-nl
+  start_at: 2026-08-03T00:00:00.000Z
+  end_at: 2026-11-03T00:00:00.000Z
+  title: "Wijziging van de Snap-Release-track"
+  description: "De snap channels veranderen. Actie vereist om op Release te blijven."
+  CTA: "Meer informatie"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release],
+          locales: [nl],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
+
+- id: SnapRelease-ru
+  start_at: 2026-08-03T00:00:00.000Z
+  end_at: 2026-11-03T00:00:00.000Z
+  title: "Изменение Release track в Snap"
+  description: "Меняются каналы snap. Чтобы сохранить Release, необходимо принять меры."
+  CTA: "Подробнее"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release],
+          locales: [ru],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
